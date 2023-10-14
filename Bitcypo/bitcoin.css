@@ -1,0 +1,414 @@
+body{
+    background-color: rgb(8, 8, 41);
+    color: white;
+    width: 100%;
+}
+.container-fluid{
+    background-color: rgb(8, 8, 41);
+    width: 1300px;
+}
+.nabar{
+    background-color: rgb(8, 8, 41);
+}
+.navbar-brand{
+    background-color: rgb(8, 8, 41);
+    height: 60px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.navbar-nav{
+    margin-left: 250px;
+}
+.icon{
+    height: 40px;
+    margin-top: 10px;
+}
+.right-items{
+    display: flex;
+}
+.nav-link1{
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.box1{
+    color: white;
+    background-color: rgb(8, 8, 41);
+    display: flex;
+    align-items: center;
+}
+.menu-image{
+    height: 70px;
+}
+.card-body{
+    height: 300px;
+    text-align: center;
+}
+.card :hover{
+    background-color: yellow;
+    color: white;
+}
+.card-title{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.card-text{
+    font-size: larger;
+    text-align: center;
+    margin-top: 15px;
+}
+.boxes{
+    width: 1400px;
+    /* margin: 50px 0px 40px; */
+    margin: 50px 0px 0px 50px;
+}
+.box2{
+    height: 500px;
+    width: 1250px;
+    box-sizing: border-box;
+    border: 1px dashed white;
+    margin: 80px 0px 60px 150px;
+}
+.col1{
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.col2{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.about2{
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.rdbtn{
+    margin-top: 40px;
+}
+button[class="btnRd"]{
+    background-color: rgb(8, 8, 41);
+    box-sizing: border-box;
+    border: 2px solid white;
+    color:aliceblue;
+    height: 60px;
+    width: 200px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.box2-title{
+    font-size: 50px;
+    font-weight: 750;
+}
+.about-info{
+    font-size: 18px;
+    margin-top: 50px;
+}
+.about{
+    height: 100%;
+    width: 100%;
+    color:white;
+    outline: 1px solid none;
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+.progress{
+    background-color:  rgb(8, 8, 41);
+    height: 200px;
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.progress-info{
+    font-size: 18px;
+}
+.read{
+    height: 65px;
+    width: 200px;
+    background-color: rgb(8, 8, 41);
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.list1{
+    height: 100px;
+    width: 1250px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    display: grid;
+    justify-content: space-between;
+    margin: 80px 0px 60px 150px;
+}
+.list1-1{
+    display:flex;
+    justify-content: space-between;
+}
+.one{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 50px;
+}
+.three{
+    margin-right: 150px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 30px;
+}
+.two{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 30px;
+}
+.active1{
+    color: rgb(255, 225, 0);
+}
+.one:hover{
+    color: rgb(255, 225, 0);
+}
+.three:hover{
+    color: rgb(255, 225, 0);
+}
+.list{
+    width: 1250px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin: 80px 0px 60px 150px;
+}
+.top{
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 0px;
+    font-weight: 600;
+}
+.top-info{
+    text-align: center;
+}
+.table-line{
+    width: 1210px;
+    margin: 8px 0px 40px 20px;
+}
+.graphhead{
+    display: flex;
+    justify-content: space-between;
+}
+.top-first{
+    margin-left: 80px;
+}
+.top-second{
+    margin-left: 175px;
+}
+.top-third{
+    margin-right: 60px;
+}
+.graph-top{
+    font-size: 20px;
+    font-weight: 750;
+}
+.graph1{
+    margin-right: 135px;
+    margin-bottom: 40px;
+}
+.row2{
+    display: flex;
+    margin-left: 80px;
+}
+.quote{
+    text-align: center;
+}
+.row1{
+    display:flex;
+}
+.box3{
+    height: 600px;
+    width: 1350px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin: 100px;
+    margin-left: 105px;
+}
+.testimonial{
+    width: 1150px;
+    margin: 70px 50px 0px 50px;
+}
+.test{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.clint{
+    height: 170px;
+    width: 190px;
+    margin: 15px 25px 4px 85px;
+    border-radius: 14px;
+}
+.info{
+    justify-content: left;
+    margin-top: 40px;
+    font-size: larger;
+}
+.morgan{
+    font-weight: 800;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.yellow{
+    font-size: 22px;
+    color: yellow;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.works{
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.video-image{
+    height: 550px;
+    width: 1250px;
+    margin: 30px 0px 60px 150px;
+}
+.callback{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin: 80px 0px;
+}
+.box4{
+    height: 300px;
+    margin: 10px 100px 0px;
+}
+.box4-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 10px;
+}
+.box4-1-1{
+    height: 80px;
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    background-color: rgb(8, 8, 41);
+}
+.box4-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 10px;
+}
+.box4-2-1{
+    height: 80px;
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    background-color: rgb(8, 8, 41);
+}
+::placeholder{
+    color: gray;
+}
+.send{
+    text-align: center;
+}
+button[type="submit"]{
+    height: 70px;
+    width: 200px;
+    background-color: rgb(8, 8, 41);
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.bitc{
+    font-size: 55px;
+    font-weight:750;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.box5{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 60px 150px;
+}
+.contact-info{
+    display: grid;
+    width: 225px;
+    margin-left: 5px;
+}
+.box-head{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.lastpic{
+    margin: 5px;
+}
+.click{
+    font-size: 19px;
+    text-decoration: none;
+    color: grey;
+}
+.click:hover{
+    cursor: pointer; 
+    color: blue;
+}
+.cont{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.news{
+    display: grid;
+    padding-bottom: 90px;
+    padding-right: 20px;
+}
+.box5-email{
+    border: 2px solid white;
+    background-color: rgb(8, 8, 41);
+    height: 55px;
+    width: 250px;
+}
+
+.btnSubcribe{
+    background-color: rgb(8, 8, 41);
+    box-sizing: border-box;
+    border: 2px solid white;
+    color:white;
+    height: 50px;
+    width: 200px;
+}
+.box5-email::placeholder{
+    font-size: 18px;
+}
+.last-line{
+    margin: 100px 150px 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.htmdes{
+    text-decoration: none;
+    color: white;
+}
+.htmdes:hover{
+    color: yellow;
+}
